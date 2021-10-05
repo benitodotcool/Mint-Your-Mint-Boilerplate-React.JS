@@ -1,7 +1,11 @@
-$font-size: 13px;
-$big-font-size: 65px;
+$small-font-size: clamp(14px, 1.5vw, 1.5vw);
+$medium-font-size: clamp(30px, 2.85vw, 2.85vw);
+$big-font-size: 13px;
+$large-font-size: clamp(75px, 12.5vw, 12.5vw);
 
-$padding: 13px;
+$small-padding: clamp(15px, 1.5vw, 1.5vw);
+$medium-padding: clamp(20px, 2vw, 2vw);
+$big-padding: clamp(30px, 3vw, 3vw);
 
 $yellow: #f6f829;
 $green: #28f57e;

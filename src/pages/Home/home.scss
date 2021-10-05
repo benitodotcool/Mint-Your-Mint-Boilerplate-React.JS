@@ -1,0 +1,12 @@
+@import '../../styles/variables.scss';
+
+.container__home--all {
+  text-align: center;
+  display: grid;
+  grid-gap: $small-padding;
+  margin-bottom: $medium-padding;
+
+  a:hover {
+    color: $yellow;
+  }
+}
