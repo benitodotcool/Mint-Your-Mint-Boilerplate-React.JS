@@ -1,12 +1,18 @@
 @import '../../styles/variables.scss';
 
 .container__home--all {
+  height: 100%;
   text-align: center;
   display: grid;
   grid-gap: $small-padding;
-  margin-bottom: $medium-padding;
+  padding-bottom: $medium-padding;
+  grid-template-rows: 1fr auto;
 
   a:hover {
     color: $yellow;
   }
+}
+
+.first--element {
+  margin-right: $big-padding;
 }

@@ -1,0 +1,17 @@
+@import '../../styles/variables.scss';
+
+.container__carousel--item {
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+  height: 100%;
+}
+
+.carousel--item {
+  display: inline-block;
+}
+
+.square--img {
+  height: 250px;
+  border-radius: $medium-font-size;
+}

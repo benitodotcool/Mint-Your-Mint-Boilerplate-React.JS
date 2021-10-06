@@ -1,9 +1,10 @@
 $small-font-size: clamp(14px, 1.5vw, 1.5vw);
 $medium-font-size: clamp(30px, 2.85vw, 2.85vw);
-$big-font-size: 13px;
+$big-font-size: clamp(50px, 5vw, 5vw);
 $large-font-size: clamp(75px, 12.5vw, 12.5vw);
+$button-size: clamp(180px, 18vw, 18vw);
 
-$small-padding: clamp(15px, 1.5vw, 1.5vw);
+$small-padding: clamp(8px, 1vw, 1vw);
 $medium-padding: clamp(20px, 2vw, 2vw);
 $big-padding: clamp(30px, 3vw, 3vw);
 

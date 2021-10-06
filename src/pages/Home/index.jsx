@@ -8,15 +8,17 @@ const Home = () => {
   return (
     <div className="container__home--all">
       <div className="container__btn--all">
-        <Link to="/project">
-          <button>Project</button>
-        </Link>
-        <Link to="/mint">
-          <button>Mint</button>
-        </Link>
+        <div className="container__btn">
+          <Link to="/project" className="first--element">
+            <button>Project</button>
+          </Link>
+          <Link to="/mint">
+            <button>Mint</button>
+          </Link>
+        </div>
       </div>
       <Footer />
-  </div>
+    </div>
   );
 };
 
