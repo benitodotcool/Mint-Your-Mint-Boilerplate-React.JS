@@ -1,10 +1,16 @@
 @import '../../styles/variables.scss';
 
+.container__carousel--all {
+  overflow-x: hidden;
+}
+
 .container__carousel--item {
   overflow-x: scroll;
-  overflow-y: hidden;
   white-space: nowrap;
-  height: 100%;
+  display: grid;
+  grid-gap: $small-padding;
+  grid-auto-flow: column;
+  padding: 0 $small-padding;
 }
 
 .carousel--item {
@@ -12,6 +18,6 @@
 }
 
 .square--img {
-  height: 250px;
+  height: 40vh;
   border-radius: $medium-font-size;
 }

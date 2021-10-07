@@ -16,6 +16,9 @@ const Mint = () => {
         <button>
           Mint!
         </button>
+        <p className="label--mint">
+          0.06 + Gas price, 10 Mint max per transaction
+        </p>
       </div>
       <Footer />
     </div>

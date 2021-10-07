@@ -6,6 +6,7 @@
   display: grid;
   grid-gap: $small-padding;
   padding-bottom: $medium-padding;
+  grid-template-rows: 1fr auto;
 
   a:hover {
     color: $yellow;
