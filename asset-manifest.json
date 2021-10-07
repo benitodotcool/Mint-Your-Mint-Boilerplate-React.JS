@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/Mint-Your-Mint-Boilerplate-React.JS/static/css/main.39abeeca.chunk.css",
+    "main.js": "/Mint-Your-Mint-Boilerplate-React.JS/static/js/main.54b98e0f.chunk.js",
+    "main.js.map": "/Mint-Your-Mint-Boilerplate-React.JS/static/js/main.54b98e0f.chunk.js.map",
+    "runtime-main.js": "/Mint-Your-Mint-Boilerplate-React.JS/static/js/runtime-main.8b121f1a.js",
+    "runtime-main.js.map": "/Mint-Your-Mint-Boilerplate-React.JS/static/js/runtime-main.8b121f1a.js.map",
+    "static/js/2.05414c37.chunk.js": "/Mint-Your-Mint-Boilerplate-React.JS/static/js/2.05414c37.chunk.js",
+    "static/js/2.05414c37.chunk.js.map": "/Mint-Your-Mint-Boilerplate-React.JS/static/js/2.05414c37.chunk.js.map",
+    "index.html": "/Mint-Your-Mint-Boilerplate-React.JS/index.html",
+    "static/css/main.39abeeca.chunk.css.map": "/Mint-Your-Mint-Boilerplate-React.JS/static/css/main.39abeeca.chunk.css.map",
+    "static/js/2.05414c37.chunk.js.LICENSE.txt": "/Mint-Your-Mint-Boilerplate-React.JS/static/js/2.05414c37.chunk.js.LICENSE.txt",
+    "static/media/mint_your_mint_1.a7e67d83.jpeg": "/Mint-Your-Mint-Boilerplate-React.JS/static/media/mint_your_mint_1.a7e67d83.jpeg",
+    "static/media/mint_your_mint_10.597c485a.jpeg": "/Mint-Your-Mint-Boilerplate-React.JS/static/media/mint_your_mint_10.597c485a.jpeg",
+    "static/media/mint_your_mint_11.ec8a9b94.jpeg": "/Mint-Your-Mint-Boilerplate-React.JS/static/media/mint_your_mint_11.ec8a9b94.jpeg",
+    "static/media/mint_your_mint_12.1b46d17c.jpeg": "/Mint-Your-Mint-Boilerplate-React.JS/static/media/mint_your_mint_12.1b46d17c.jpeg",
+    "static/media/mint_your_mint_13.c6e34685.jpeg": "/Mint-Your-Mint-Boilerplate-React.JS/static/media/mint_your_mint_13.c6e34685.jpeg",
+    "static/media/mint_your_mint_14.40be491d.jpeg": "/Mint-Your-Mint-Boilerplate-React.JS/static/media/mint_your_mint_14.40be491d.jpeg",
+    "static/media/mint_your_mint_15.ba6d0965.jpeg": "/Mint-Your-Mint-Boilerplate-React.JS/static/media/mint_your_mint_15.ba6d0965.jpeg",
+    "static/media/mint_your_mint_16.c82c7537.jpeg": "/Mint-Your-Mint-Boilerplate-React.JS/static/media/mint_your_mint_16.c82c7537.jpeg",
+    "static/media/mint_your_mint_17.2fbfc38e.jpeg": "/Mint-Your-Mint-Boilerplate-React.JS/static/media/mint_your_mint_17.2fbfc38e.jpeg",
+    "static/media/mint_your_mint_18.fb29627d.jpeg": "/Mint-Your-Mint-Boilerplate-React.JS/static/media/mint_your_mint_18.fb29627d.jpeg",
+    "static/media/mint_your_mint_19.7a623364.jpeg": "/Mint-Your-Mint-Boilerplate-React.JS/static/media/mint_your_mint_19.7a623364.jpeg",
+    "static/media/mint_your_mint_2.0e88ba83.jpeg": "/Mint-Your-Mint-Boilerplate-React.JS/static/media/mint_your_mint_2.0e88ba83.jpeg",
+    "static/media/mint_your_mint_20.e9e96db7.jpeg": "/Mint-Your-Mint-Boilerplate-React.JS/static/media/mint_your_mint_20.e9e96db7.jpeg",
+    "static/media/mint_your_mint_3.19cb79dd.jpeg": "/Mint-Your-Mint-Boilerplate-React.JS/static/media/mint_your_mint_3.19cb79dd.jpeg",
+    "static/media/mint_your_mint_4.1da613d5.jpeg": "/Mint-Your-Mint-Boilerplate-React.JS/static/media/mint_your_mint_4.1da613d5.jpeg",
+    "static/media/mint_your_mint_5.b95d3050.jpeg": "/Mint-Your-Mint-Boilerplate-React.JS/static/media/mint_your_mint_5.b95d3050.jpeg",
+    "static/media/mint_your_mint_6.18ee9eba.jpeg": "/Mint-Your-Mint-Boilerplate-React.JS/static/media/mint_your_mint_6.18ee9eba.jpeg",
+    "static/media/mint_your_mint_7.98ab1162.jpeg": "/Mint-Your-Mint-Boilerplate-React.JS/static/media/mint_your_mint_7.98ab1162.jpeg",
+    "static/media/mint_your_mint_8.8ab61dd1.jpeg": "/Mint-Your-Mint-Boilerplate-React.JS/static/media/mint_your_mint_8.8ab61dd1.jpeg",
+    "static/media/mint_your_mint_9.88e63cf2.jpeg": "/Mint-Your-Mint-Boilerplate-React.JS/static/media/mint_your_mint_9.88e63cf2.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8b121f1a.js",
+    "static/js/2.05414c37.chunk.js",
+    "static/css/main.39abeeca.chunk.css",
+    "static/js/main.54b98e0f.chunk.js"
+  ]
+}
