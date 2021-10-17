@@ -35,7 +35,7 @@ const Contact = () => {
             </a>
           </li>
           <li className="external--link">
-            <a href="https://twitter.com/thesalvare"
+            <a href="https://discord.gg/zmzds7fCUe"
               className="link"
               target="_blank"
               rel="noreferrer"

@@ -17,6 +17,10 @@
     .link {
       display: grid;
       grid-template-columns: 75px auto;
+
+      &:hover {
+        color: $yellow;
+      }
     }
 
     .label--svg {

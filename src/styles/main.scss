@@ -14,6 +14,7 @@
 .container__content--all {
   overflow-y: scroll;
   background: linear-gradient(180deg, $dark-green 0%, $light-green 100%);
+  scroll-snap-type: y mandatory;
 }
 
 section {
@@ -22,6 +23,8 @@ section {
   grid-template-rows: 1fr auto;
   grid-gap: $big-padding;
   padding: $small-padding;
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
 
   .container__CTA--btn {
     display: grid;

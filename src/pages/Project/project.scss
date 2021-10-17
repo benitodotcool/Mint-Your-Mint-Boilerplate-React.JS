@@ -8,10 +8,28 @@
   .container__description {
     display: grid;
     place-items: center;
-    max-width: 500px;
-    margin: 0 auto;
-    text-align: center;
-    text-transform: uppercase;
+
+    .container__imgs--all {
+      display: grid;
+      grid-template-columns: repeat(6, 1fr);
+      grid-gap: $small-padding;
+      max-width: 1000px;
+      margin: 0 auto;
+      padding-bottom: $medium-padding;
+
+      .img {
+        width: 100%;
+        height: 100%;
+        border-radius: $medium-padding;
+      }
+    }
+
+    .medium-size {
+      max-width: 500px;
+      margin: 0 auto;
+      text-align: center;
+      text-transform: uppercase;
+    }
   
     a {
       color: $yellow;
