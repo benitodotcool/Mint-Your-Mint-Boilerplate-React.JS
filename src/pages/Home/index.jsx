@@ -5,7 +5,7 @@ import ArrowDown from '../../assets/SVG/ArrowDownLight';
 const Home = () => {
 
   return (
-    <section className="container__section--home">
+    <section className="container__section--home" id="home">
       <div className="container__content home--Section">
         <div className="container--title--subtitle">
           <h1 className="title">MINT<br/>YOUR<br/>MINT</h1>

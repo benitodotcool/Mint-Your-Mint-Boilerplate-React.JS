@@ -6,6 +6,9 @@ import './styles/main.scss';
 import Header from './components/Header';
 import Home from './pages/Home';
 import Project from './pages/Project';
+import Mint from './pages/Mint';
+import Roadmap from './pages/Roadmap';
+import Contact from './pages/Contact';
 
 const App = () => {
   
@@ -18,6 +21,9 @@ const App = () => {
         <div className="container__content--all">
           <Home />
           <Project />
+          <Mint />
+          <Roadmap />
+          <Contact />
         </div>
       </div>
     </Router>

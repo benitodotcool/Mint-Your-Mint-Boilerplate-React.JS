@@ -1,23 +1,23 @@
 import React from 'react';
-import './project.scss';
+import './roadmap.scss';
 import ArrowDown from '../../assets/SVG/ArrowDownLight';
 import ArrowUp from '../../assets/SVG/ArrowUpLight';
 
-const Project = () => {
+const Roadmap = () => {
 
   return (
-    <section className="container__section--project" id="project">
+    <section className="container__section--project" id="roadmap">
       <div className="container__content">
-        <h1>PROJECT</h1>
+        <h1>ROADMAP</h1>
       </div>
       <div className="container__CTA--btn">
         <div className="CTA--btns">
             <button className="section--endBTN btnUp">
               <ArrowUp />
-              HOME
+              MINT
             </button>
             <button className="section--endBTN btnDown">
-              MINT
+              CONTACT
               <ArrowDown />
             </button>
         </div>
@@ -26,4 +26,4 @@ const Project = () => {
   );
 };
 
-export default Project;
+export default Roadmap;

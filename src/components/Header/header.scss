@@ -6,6 +6,14 @@
   grid-template-columns: 1fr auto;
   grid-gap: $small-padding;
   text-transform: uppercase;
+
+  a {
+    color: $white;
+
+    &:hover {
+      color: $yellow;
+    }
+  }
 }
 
 .navbar--links {

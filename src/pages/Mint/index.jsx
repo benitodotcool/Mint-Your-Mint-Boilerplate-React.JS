@@ -1,23 +1,23 @@
 import React from 'react';
-import './project.scss';
+import './mint.scss';
 import ArrowDown from '../../assets/SVG/ArrowDownLight';
 import ArrowUp from '../../assets/SVG/ArrowUpLight';
 
-const Project = () => {
+const Mint = () => {
 
   return (
-    <section className="container__section--project" id="project">
+    <section className="container__section--project" id="mint">
       <div className="container__content">
-        <h1>PROJECT</h1>
+        <h1>MINT</h1>
       </div>
       <div className="container__CTA--btn">
         <div className="CTA--btns">
             <button className="section--endBTN btnUp">
               <ArrowUp />
-              HOME
+              PROJECT
             </button>
             <button className="section--endBTN btnDown">
-              MINT
+              ROADMAP
               <ArrowDown />
             </button>
         </div>
@@ -26,4 +26,4 @@ const Project = () => {
   );
 };
 
-export default Project;
+export default Mint;
