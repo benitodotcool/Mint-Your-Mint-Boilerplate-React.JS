@@ -41,14 +41,36 @@ section {
         place-items: center;
         grid-auto-flow: column;
         grid-gap: $small-padding / 2;
+
+        &:hover {
+          background-color: $yellow;
+          border-color: $yellow;
+          color: $dark-green;
+
+          & #Arrow---Down-Circle,
+            #Arrow---Up-Circle {
+            stroke: $dark-green;
+          }
+        }
       }
+
       .btnDown {
         padding-right: $small-padding / 2;
       }
+
       .btnUp {
         padding-left: $small-padding / 2;
       }
     }
+  }
+
+  .section--title {
+    text-align: center;
+    font-size: $medium-font-size;
+    letter-spacing: -0.2vw;
+    line-height: 1;
+    color: $yellow;
+    padding-bottom: $big-padding;
   }
 }
 

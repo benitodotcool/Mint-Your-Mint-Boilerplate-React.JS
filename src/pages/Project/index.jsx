@@ -9,7 +9,7 @@ const Project = () => {
   return (
     <section className="container__section--project" id="project">
       <div className="container__content">
-        <h1>PROJECT</h1>
+        <h1 className="section--title">PROJECT</h1>
       </div>
       <div className="container__CTA--btn">
         <div className="CTA--btns">

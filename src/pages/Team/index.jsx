@@ -9,7 +9,7 @@ const Team = () => {
   return (
     <section className="container__section--project" id="team">
       <div className="container__content">
-        <h1>TEAM</h1>
+        <h1 className="section--title">TEAM</h1>
       </div>
       <div className="container__CTA--btn">
         <div className="CTA--btns">
