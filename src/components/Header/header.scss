@@ -1,0 +1,34 @@
+@import '../../styles/variables.scss';
+
+.container__header--all {
+  position: fixed;
+  display: grid;
+  width: 100%;
+  grid-template-columns: 1fr auto;
+  grid-gap: $medium-padding;
+  background-color: $dark-green;
+  border-bottom: 2px solid $white;
+  padding: $small-padding $medium-padding;
+
+  .container__logo--all {
+    display: grid;
+    align-items: center;
+    font-family: 'Nerko One', cursive;
+    font-size: $medium-font-size;
+  }
+}
+
+.container__navLinks--all {
+  display: grid;
+  place-items: center;
+}
+
+.container__navLinks {
+  display: grid;
+  grid-auto-flow: column;
+  grid-gap: $small-padding;
+
+  .navLinks {
+    text-transform: capitalize;
+  }
+}

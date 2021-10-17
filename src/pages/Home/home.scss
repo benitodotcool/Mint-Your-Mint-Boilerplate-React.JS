@@ -1,18 +1,20 @@
 @import '../../styles/variables.scss';
 
 .container__home--all {
-  height: 100%;
-  text-align: center;
-  display: grid;
-  grid-gap: $small-padding;
-  padding-bottom: $medium-padding;
-  grid-template-rows: 1fr auto;
+  z-index: 999;
+  width: 100%;
 
-  a:hover {
-    color: $yellow;
+  .container__text--all {
+    text-align: center;
+    font-family: 'Nerko One', cursive;
+
+    .title {
+      font-size: $title-font-size;
+      line-height: 0.7;
+      color: $yellow;
+    }
+    .subtitle {
+      font-size: $big-font-size;
+    }
   }
-}
-
-.first--element {
-  margin-right: $big-padding;
 }

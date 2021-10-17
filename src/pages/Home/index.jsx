@@ -1,24 +1,15 @@
 import React from 'react';
 import './home.scss';
-import Footer from '../../components/Footer';
-import { Link } from 'react-router-dom';
 
 const Home = () => {
 
   return (
-    <div className="container__home--all">
-      <div className="container__btn--all">
-        <div className="container__btn">
-          <Link to="/project" className="first--element">
-            <button>Project</button>
-          </Link>
-          <Link to="/mint">
-            <button>Mint</button>
-          </Link>
-        </div>
+    <section className="container__home--all">
+      <div className="container__text--all">
+        <div className="title">Mint <br/>Your Mint</div>
+        <div className="subtitle">To Mint Mints Is What We Like To Mint</div>
       </div>
-      <Footer />
-    </div>
+    </section>
   );
 };
 
