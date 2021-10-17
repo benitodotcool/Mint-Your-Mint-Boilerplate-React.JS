@@ -1,37 +1,37 @@
 import React from 'react';
-import './project.scss';
+import './team.scss';
 import { NavHashLink } from 'react-router-hash-link';
 import ArrowDown from '../../assets/SVG/ArrowDownLight';
 import ArrowUp from '../../assets/SVG/ArrowUpLight';
 
-const Project = () => {
+const Team = () => {
 
   return (
-    <section className="container__section--project" id="project">
+    <section className="container__section--project" id="team">
       <div className="container__content">
-        <h1>PROJECT</h1>
+        <h1>TEAM</h1>
       </div>
       <div className="container__CTA--btn">
         <div className="CTA--btns">
           <NavHashLink
             smooth
-            to="/#home"
+            to="/#roadmap"
             activeClassName="selected"
             activeStyle={{ color: '#f6f829' }}
           >
             <button className="section--endBTN btnUp">
               <ArrowUp />
-              HOME
+              ROADMAP
             </button>
           </NavHashLink>
           <NavHashLink
             smooth
-            to="/#mint"
+            to="/#contact"
             activeClassName="selected"
             activeStyle={{ color: '#f6f829' }}
           >
             <button className="section--endBTN btnDown">
-              MINT
+              CONTACT
               <ArrowDown />
             </button>
           </NavHashLink>
@@ -41,4 +41,4 @@ const Project = () => {
   );
 };
 
-export default Project;
+export default Team;

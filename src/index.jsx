@@ -8,6 +8,7 @@ import Home from './pages/Home';
 import Project from './pages/Project';
 import Mint from './pages/Mint';
 import Roadmap from './pages/Roadmap';
+import Team from './pages/Team';
 import Contact from './pages/Contact';
 
 const App = () => {
@@ -23,6 +24,7 @@ const App = () => {
           <Project />
           <Mint />
           <Roadmap />
+          <Team />
           <Contact />
         </div>
       </div>

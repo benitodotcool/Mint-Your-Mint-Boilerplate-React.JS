@@ -1,5 +1,6 @@
 import React from 'react';
 import './mint.scss';
+import { NavHashLink } from 'react-router-hash-link';
 import ArrowDown from '../../assets/SVG/ArrowDownLight';
 import ArrowUp from '../../assets/SVG/ArrowUpLight';
 
@@ -12,14 +13,28 @@ const Mint = () => {
       </div>
       <div className="container__CTA--btn">
         <div className="CTA--btns">
+          <NavHashLink
+            smooth
+            to="/#project"
+            activeClassName="selected"
+            activeStyle={{ color: '#f6f829' }}
+          >
             <button className="section--endBTN btnUp">
               <ArrowUp />
               PROJECT
             </button>
+          </NavHashLink>
+          <NavHashLink
+            smooth
+            to="/#roadmap"
+            activeClassName="selected"
+            activeStyle={{ color: '#f6f829' }}
+          >
             <button className="section--endBTN btnDown">
               ROADMAP
               <ArrowDown />
             </button>
+          </NavHashLink>
         </div>
       </div>
     </section>

@@ -1,5 +1,6 @@
 import React from 'react';
 import './home.scss';
+import { NavHashLink } from 'react-router-hash-link';
 import ArrowDown from '../../assets/SVG/ArrowDownLight';
 
 const Home = () => {
@@ -14,10 +15,17 @@ const Home = () => {
       </div>
       <div className="container__CTA--btn">
         <div className="CTA--btns">
-          <button className="section--endBTN btnDown">
-            PROJECT
-            <ArrowDown />
-          </button>
+          <NavHashLink
+            smooth
+            to="/#project"
+            activeClassName="selected"
+            activeStyle={{ color: '#f6f829' }}
+          >
+            <button className="section--endBTN btnDown">
+              PROJECT
+              <ArrowDown />
+            </button>
+          </NavHashLink>
         </div>
       </div>
     </section>

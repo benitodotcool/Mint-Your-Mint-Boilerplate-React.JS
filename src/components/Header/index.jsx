@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { NavHashLink } from 'react-router-hash-link';
 import './header.scss'
 
 const Header = () => {
@@ -7,31 +7,66 @@ const Header = () => {
   return (
     <header className="container__header">
       <div className="container__logo">
-        <Link to="/#home">
+        <NavHashLink
+          smooth
+          to="/#home"
+          activeClassName="selected"
+          activeStyle={{ color: '#f6f829' }}
+        >
           Mint Your Mint
-        </Link>
+        </NavHashLink>
       </div>
       <nav className="container__navbar--links">
         <ul className="navbar--links">
           <li className="links">
-            <Link to="/#project">
+            <NavHashLink
+              smooth
+              to="/#project"
+              activeClassName="selected"
+              activeStyle={{ color: '#f6f829' }}
+            >
               Project
-            </Link>
+            </NavHashLink>
           </li>
           <li className="links">
-            <Link to="/#mint">
+            <NavHashLink
+              smooth
+              to="/#mint"
+              activeClassName="selected"
+              activeStyle={{ color: '#f6f829' }}
+            >
               Mint
-            </Link>
+            </NavHashLink>
           </li>
           <li className="links">
-            <Link to="/#roadmap">
+            <NavHashLink
+              smooth
+              to="/#roadmap"
+              activeClassName="selected"
+              activeStyle={{ color: '#f6f829' }}
+            >
               Roadmap
-            </Link>
+            </NavHashLink>
           </li>
           <li className="links">
-            <Link to="/#contact">
+            <NavHashLink
+              smooth
+              to="/#team"
+              activeClassName="selected"
+              activeStyle={{ color: '#f6f829' }}
+            >
+              Team
+            </NavHashLink>
+          </li>
+          <li className="links">
+            <NavHashLink
+              smooth
+              to="/#contact"
+              activeClassName="selected"
+              activeStyle={{ color: '#f6f829' }}
+            >
               Contact
-            </Link>
+            </NavHashLink>
           </li>
         </ul>
       </nav>

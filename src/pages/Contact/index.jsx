@@ -1,5 +1,6 @@
 import React from 'react';
 import './contact.scss';
+import { NavHashLink } from 'react-router-hash-link';
 import ArrowUp from '../../assets/SVG/ArrowUpLight';
 
 const Contact = () => {
@@ -11,10 +12,17 @@ const Contact = () => {
       </div>
       <div className="container__CTA--btn">
         <div className="CTA--btns">
+          <NavHashLink
+            smooth
+            to="/#team"
+            activeClassName="selected"
+            activeStyle={{ color: '#f6f829' }}
+          >
             <button className="section--endBTN btnUp">
               <ArrowUp />
-              ROADMAP
+              TEAM
             </button>
+          </NavHashLink>
         </div>
       </div>
     </section>
