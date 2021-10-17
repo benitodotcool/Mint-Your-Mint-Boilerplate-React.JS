@@ -1,18 +1,22 @@
 @import '../../styles/variables.scss';
 
-.container__home--all {
-  height: 100%;
-  text-align: center;
+.container__content.home--Section {
   display: grid;
-  grid-gap: $small-padding;
-  padding-bottom: $medium-padding;
-  grid-template-rows: 1fr auto;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
 
-  a:hover {
+  .title {
+    font-size: clamp(100px, 20vw, 200px);
+    letter-spacing: -1vw;
     color: $yellow;
+    font-weight: 400;
+    line-height: 0.75;
   }
-}
-
-.first--element {
-  margin-right: $big-padding;
+  .subtitle {
+    font-size: clamp(25px, 5vw, 50px);
+    letter-spacing: -0.15vw;
+    font-weight: 400;
+    line-height: 1;
+  }
 }

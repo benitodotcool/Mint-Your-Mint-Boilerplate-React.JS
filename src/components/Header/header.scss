@@ -1,0 +1,15 @@
+@import '../../styles/variables.scss';
+
+.container__header {
+  padding: $small-padding;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  grid-gap: $small-padding;
+  text-transform: uppercase;
+}
+
+.navbar--links {
+  display: grid;
+  grid-auto-flow: column;
+  grid-gap: $small-padding;
+}
