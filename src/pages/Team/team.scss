@@ -1,2 +1,30 @@
 @import '../../styles/variables.scss';
 
+.container__team--all {
+  display: grid;
+  place-items: center;
+
+  .team--all {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: $small-padding;
+    row-gap: $medium-padding;
+    max-width: 700px;
+    margin: 0 auto;
+
+    .team--unit {
+      display: grid;
+      grid-gap: $small-padding;
+
+      .container--img > img {
+        display: block;
+        height: 100%;
+        width: 100%;
+        border-radius: $medium-padding;
+      }
+      .container--text {
+        text-align: center;
+      }
+    }
+  }
+}

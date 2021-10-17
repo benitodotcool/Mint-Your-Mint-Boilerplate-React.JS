@@ -21,6 +21,16 @@ const Header = () => {
           <li className="links">
             <NavHashLink
               smooth
+              to="/#home"
+              activeClassName="selected"
+              activeStyle={{ color: '#f6f829' }}
+            >
+              Home
+            </NavHashLink>
+          </li>
+          <li className="links">
+            <NavHashLink
+              smooth
               to="/#project"
               activeClassName="selected"
               activeStyle={{ color: '#f6f829' }}

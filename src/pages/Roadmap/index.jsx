@@ -7,7 +7,7 @@ import ArrowUp from '../../assets/SVG/ArrowUpLight';
 const Roadmap = () => {
 
   return (
-    <section className="container__section--project" id="roadmap">
+    <section className="container__section--roadmap" id="roadmap">
       <div className="container__content">
         <h1 className="section--title">ROADMAP</h1>
       </div>

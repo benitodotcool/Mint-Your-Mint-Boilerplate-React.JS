@@ -66,11 +66,16 @@ section {
 
   .section--title {
     text-align: center;
-    font-size: $medium-font-size;
-    letter-spacing: -0.2vw;
+    font-size: $big-font-size;
+    letter-spacing: -0.25vw;
     line-height: 1;
     color: $yellow;
     padding-bottom: $big-padding;
+  }
+
+  .medium-size {
+    // font-size: $medium-font-size;
+    font-size: $small-font-size;
   }
 }
 

@@ -7,7 +7,7 @@ import ArrowUp from '../../assets/SVG/ArrowUpLight';
 const Mint = () => {
 
   return (
-    <section className="container__section--project" id="mint">
+    <section className="container__section--mint" id="mint">
       <div className="container__content">
         <h1 className="section--title">MINT</h1>
       </div>

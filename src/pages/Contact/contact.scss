@@ -1,2 +1,33 @@
 @import '../../styles/variables.scss';
 
+.container__content.contact {
+  display: grid;
+  grid-template-rows: auto 1fr;
+
+  .container__links--all {
+    display: grid;
+    place-items: center;
+  }
+
+  .container__links {
+    display: grid;
+    place-items: center;
+    grid-gap: $small-padding;
+
+    .link {
+      display: grid;
+      grid-template-columns: 75px auto;
+    }
+
+    .label--svg {
+      text-transform: uppercase;
+      display: grid;
+      align-items: center;
+    }
+
+    .container--svg > svg {
+      width: 28px;
+      height: 28px;
+    }
+  }
+}
