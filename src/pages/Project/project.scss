@@ -1,6 +1,7 @@
 @import '../../styles/variables.scss';
 
-.container__content.project {
+.container__content.project,
+.container__content.roadmap {
   display: grid;
   grid-template-rows: auto 1fr;
 

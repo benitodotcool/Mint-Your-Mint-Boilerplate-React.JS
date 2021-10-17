@@ -1,14 +1,12 @@
 @import './variables.scss';
-@import url('https://fonts.googleapis.com/css2?family=Cousine:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+// @import url('https://fonts.googleapis.com/css2?family=Cousine:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
 
-html {
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-rendering: optimizeLegibility;
-}
+
 
 body {
-  font-family: 'Cousine', monospace;
+  // font-family: 'Cousine', monospace;
+  font-family: 'Comic Neue', cursive;
   font-size: $small-font-size;
   color: $white;
   letter-spacing: -0.5px;
@@ -83,7 +81,7 @@ button {
   outline: none;
   cursor: pointer;
   background: none;
-  font-family: 'Cousine', monospace;
+  font-family: 'Comic Neue', cursive;
   font-size: $small-font-size;
   letter-spacing: -0.5px;
 }

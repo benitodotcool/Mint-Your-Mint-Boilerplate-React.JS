@@ -1,10 +1,28 @@
 @import '../../styles/variables.scss';
 
 .container__content.home--Section {
-  display: grid;
-  align-items: center;
-  text-align: center;
-  text-transform: uppercase;
+  // display: grid;
+  // align-items: center;
+  // text-align: center;
+  // text-transform: uppercase;
+
+  .container--title--subtitle {
+    display: grid;
+    grid-gap: $medium-padding;
+  }
+
+  .SVG--title,
+  .SVG--subtitle {
+    display: block;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  .SVG--title {
+    fill: $yellow;
+  }
+  .SVG--subtitle {
+    fill: $white;
+  }
 
   .title {
     font-size: clamp(100px, 20vw, 200px);
